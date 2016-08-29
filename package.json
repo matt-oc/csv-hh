@@ -1,0 +1,24 @@
+{
+  "name": "csv-hh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-oc/csv-hh.git"
+  },
+  "author": "Matthew O'Connor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-oc/csv-hh/issues"
+  },
+  "homepage": "https://github.com/matt-oc/csv-hh#readme",
+  "dependencies": {
+    "csvtojson": "^1.0.0",
+    "json-query": "^2.1.1",
+    "jsonquery": "^0.1.7"
+  }
+}
