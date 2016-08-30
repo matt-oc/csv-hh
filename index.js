@@ -1,4 +1,14 @@
-var converter = require('./convert.js');
+var converter = require('./converts.js');
+var query = "EDF Energy"
 
-console.log(converter.getProvidersJSON())
-console.log(converter.getSingleProviderJSON("EDF"));
+converter.getProvidersJSON(function(cb) {
+  console.log("\n" + cb + "\n");
+})
+
+converter.getSingleProviderJSON(query, function(cb) {
+  console.log("\n" + cb + "\n");
+})
+
+//Example file showing how to access the get all and get
+//single provider methods in converts.js
+// just pass the query (name of provider as a string)
