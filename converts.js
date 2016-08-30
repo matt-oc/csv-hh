@@ -15,7 +15,7 @@ exports.getProvidersJSON = function(callback) {
   });
 };
 
- //returns single provider based on qury given
+ //returns single provider based on query given
 exports.getSingleProviderJSON = function(query, callback) {
   converter.on("end_parsed", function (jsonArray) {
     for(var i=0; i < jsonArray.length; i++) {
